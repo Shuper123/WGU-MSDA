@@ -19,14 +19,16 @@ Language: SQL
 
 
 Database Implementation:
-![Database Schema Diagram](./D597 - EcoMart SQL Database/schema.png)
 
-[View SQL Database Creation Script](./D597 - EcoMart SQL Database/DB.sql)
+![Database Schema Diagram](./schema.png)
+
+[View SQL Database Creation Script](./DB.sql)
 
 Analysis:
-[View SQL Analysis Queries](./D597 - EcoMart SQL Database/analysis.sql)
 
-[View EcoMart Analysis Dashboard in Tableau](https://public.tableau.com/views/EcoMartAnalysisWGU-MSDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View SQL Analysis Queries](./analysis.sql)
+
+[View Interactive EcoMart Analysis Dashboard in Tableau](https://public.tableau.com/views/EcoMartAnalysisWGU-MSDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 Results:
