@@ -45,7 +45,7 @@ Shows key metrics for clients that have a negative Debt-to-Equity Ratio:
 ![Metrics for Clients with Negative Debt-to-Equity](./negative-clients.png)
 
 Explores a potential relationship between client Revenue and Long-Term Debt:
-![Revenue vs. Long-Term Debt](./revenue-debt)
+![Revenue vs. Long-Term Debt](./revenue-debt.png)
 
 Explores the distribution of Debt-to-Equity Ratios:
 ![Distribution of Debt-to-Equity Ratios](./debt-to-equity.png)
