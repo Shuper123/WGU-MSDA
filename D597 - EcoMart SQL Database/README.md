@@ -1,47 +1,41 @@
-The Scenario:
+## EcoMart Sales Analysis & Relational Database Design
 
-EcoMart is a growing eco-friendly online market. They had decent profits last year and are planning on expanding their operations - but need solid information on where they should best invest. To do this, they need information on who is buying what products, and from where. As part of their expanding operations, they also plan to add new products to their lineup while trimming down on underselling products and will need to update their systems to keep track of that additional data.
+### The Scenario:
+EcoMart, a growing e-commerce store, needs to transition from a single spreadsheet to a scalable database solution. The goal is to analyze sales data to identify key business insights that will guide investment, product strategy, and expansion efforts. The core business questions are:
+* Which sales regions are underperforming?
+* Which product categories are the least profitable?
 
-Their current data is all stored on a single Excel/CSV file. A single table will not adequately store and hold all of EcoMart’s sales data as they grow. EcoMart needs to implement a database solution so they can safely and securely store large amounts of data in a way that will connect their new data structure together quickly and easily for analysis and business insights.
+---
+### The Solution:
+A **relational database** was designed and implemented using **PostgreSQL** to provide a secure, scalable, and structured solution for EcoMart's sales data. The process involved:
+* **Database Design:** The initial flat file was normalized to Second Normal Form (2NF), creating multiple distinct tables to reduce data redundancy and improve data integrity. An Entity-Relationship Diagram (ERD) was designed to map the new structure.
+* **Implementation:** Wrote SQL scripts to create the database schema and tables.
+* **Analysis:** Developed SQL queries to analyze sales data and identify key performance metrics by region and product category.
+* **Visualization:** Built an interactive dashboard in **Tableau** to allow stakeholders to visually explore the findings.
 
-The Solution:
+---
+### Tools Used:
+* **Database:** PostgreSQL
+* **Language:** SQL
+* **Data Visualization:** Tableau
 
-To best help EcoMart store and analyze their data, the existing flat file was structured into a relational database. The initial table was normalized by creating multiple distinct tables to reduce data redundancy and improve data integrity, achieving Second Normal Form (2NF). This structure allows for efficient and accurate querying to derive business insights.
+---
+### Business Insights:
+The analysis of the sales data revealed two critical insights:
 
+* **Underperforming Region:** **North America** shows significantly lower performance compared to other sales regions.
+* **Least Profitable Category:** **'Fruit'** is the least profitable product category by a wide margin, posing a financial and logistical risk due to its perishable nature.
 
-Tools Used:
+---
+### Actionable Recommendations:
 
-Database: PostgreSQL
+1.  **Address the 'Fruit' Category:** The company should either **discontinue the product line** to cut losses or test a **significant price increase** to improve its profit margin, potentially aligning it with the more successful 'Vegetables' category.
+2.  **Boost North American Sales:** It is recommended to launch a **targeted marketing campaign** and special offers specifically for the North American region to increase client activity and revenue.
 
-Data Visualization: Tableau
+---
+### Supporting Files & Dashboard:
 
-Language: SQL
-
-
-Database Implementation:
-
-![Database Schema Diagram](./schema.png)
-
-[View SQL Database Creation Script](./DB.sql)
-
-Analysis:
-
-[View SQL Analysis Queries](./analysis.sql)
-
-[View Interactive EcoMart Analysis Dashboard in Tableau](https://public.tableau.com/views/EcoMartAnalysisWGU-MSDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-
-Results:
-North America is underperforming relative to the other regions.
-
-Fruit is the product category that is least profitable by a wide margin.
-
-
-Recommendation:
-
-If a product category is to be discontinued, Fruit should be the primary candidate.
-Fruit is a time-sensitive product by its nature. If not sold in time, the product will rot, ruining the merchandise and creating a potential hygiene hazard. Furthermore, the profits from this product far underperform other products in EcoMart's line. 
-
-An alternative to removal may be an overall price increase. Vegetables are another plant-based product category which performs relatively well, so a simple price inflation may be sufficient to close the apparent profit gap.
-
-North America is an underperforming sales region that could benefit from a targeted marketing campaign and special offers to increase client activity and revenue.
+* ![Database Schema Diagram](./schema.png)
+* [View SQL Database Creation Script](./DB.sql)
+* [View SQL Analysis Queries](./analysis.sql)
+* [View Interactive EcoMart Analysis Dashboard in Tableau](https://public.tableau.com/views/EcoMartAnalysisWGU-MSDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
