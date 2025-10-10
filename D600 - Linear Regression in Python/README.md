@@ -31,4 +31,4 @@ A **multiple linear regression model** was built in Python to predict the contin
 * [View the Python Script for this Analysis](./housing_price_regression.py)
 
 ---
-*This project focuses on predicting housing prices. For a classification model that predicts whether a home is a "luxury" property using this same dataset, please see my **Luxury Home Classification** project.*
+*This project focuses on predicting housing prices. For a classification model that predicts whether a home is a "luxury" property using this same dataset, please see my **D600 Logistic Regression** project.*
