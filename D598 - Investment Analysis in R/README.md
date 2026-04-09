@@ -34,24 +34,6 @@ janitor: For cleaning and formatting data frame column names.
 plotly: For creating customized data visualizations. 
 
 
-[View the Full R Script](./analysis.R)
-
-Key Visualizations:
-
-Shows which states bring in the most revenue:
-![Median Revenue by State](./revenue-state.png)
-
-Shows key metrics for clients that have a negative Debt-to-Equity Ratio:
-![Metrics for Clients with Negative Debt-to-Equity](./negative-clients.png)
-
-Explores a potential relationship between client Revenue and Long-Term Debt:
-![Revenue vs. Long-Term Debt](./revenue-debt.png)
-
-Explores the distribution of Debt-to-Equity Ratios:
-![Distribution of Debt-to-Equity Ratios](./debt-to-equity.png)
-
-
-
 Results:
 
 The analysis yielded four key visual outputs that provide a comprehensive overview of the client portfolio:
