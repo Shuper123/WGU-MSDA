@@ -22,10 +22,5 @@ A **logistic regression model** was built in Python to predict the binary outcom
 
 **Tools Used:**
 * Python, Pandas, Matplotlib, Seaborn, Scikit-learn, Statsmodels
-
----
-### Supporting Files:
-* [View the Python Script for this Analysis](./luxury_home_classification.py)
-
 ---
 *This project focuses on classifying luxury homes. For a regression model that predicts the specific price of a home using this same dataset, please see my **D600 Linear Regression** project.*
