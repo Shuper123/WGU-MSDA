@@ -28,17 +28,11 @@ A multi-stage statistical analysis was conducted in Python to identify the key f
 #### **Finding 1: Gender is not a significant factor for BMI.**
 A t-test confirmed there is no statistically significant difference in BMI between male and female clients. The marketing for the "get fit" program can be targeted broadly without a gender-specific focus.
 
-`[Insert Histogram of BMI by Gender]`
-
 #### **Finding 2: Smoking status is the single largest driver of insurance charges.**
 A Mann-Whitney U test showed that the median charge for smokers is **$27,110 higher** than for non-smokers, confirming it as the most significant factor in the company's pricing model.
 
-`[Insert Box Plot of Charges by Smoking Status]`
-
 #### **Finding 3: The financial impact of a high BMI is almost entirely limited to smokers.**
 This was the most critical insight. A Spearman correlation test revealed a very strong relationship between BMI and charges for smokers (rho=0.834), but a negligible one for non-smokers (rho=0.105). As BMI increases, charges escalate dramatically for smokers but barely change for non-smokers.
-
-`[Insert Scatter Plot of BMI vs. Charges, colored by Smoking Status]`
 
 ---
 
