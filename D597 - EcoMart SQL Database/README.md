@@ -26,10 +26,3 @@ A **relational database** was designed and implemented using **PostgreSQL** to p
 * **Database:** PostgreSQL
 * **Language:** SQL
 * **Data Visualization:** Tableau
-
----
-### Supporting Files & Visualizations:
-* ![Database Schema Diagram](./schema.png)
-* [View SQL Database Creation Script](./DB.sql)
-* [View SQL Analysis Queries](./analysis.sql)
-* [View Interactive EcoMart Analysis Dashboard in Tableau](https://public.tableau.com/views/EcoMartAnalysisWGU-MSDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
