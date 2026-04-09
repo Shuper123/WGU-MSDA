@@ -9,7 +9,7 @@ This repository serves as a professional portfolio of data engineering and analy
 ## 🚀 Featured Projects
 
 ### D597 — Data Management (SQL & NoSQL)
-* **[EcoMart Sales Analysis & Relational Design](./D597-Data-Management/Task-1-Database-Design/README.md)**
+* **[EcoMart Sales Analysis & Relational Design](.D597 - EcoMart SQL Database/README.md)**
   * Engineered a scalable 2NF PostgreSQL database from flat files, identifying that discontinuing the 'Fruit' category could mitigate significant losses due to low profitability and high perishability.
 * **[Product Partnership Analysis (NoSQL)](./D597-Data-Management/Task-2-NoSQL/README.md)**
   * Architected a MongoDB solution that identified Garmin and Apple as high-value partners while uncovering a critical data-collection gap regarding premium product reviews.
