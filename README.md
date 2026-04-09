@@ -41,4 +41,4 @@ This repository serves as a professional portfolio of data engineering and analy
 ---
 
 ## 📫 Contact Info
-**Joshua Garth Shupe** *Manufacturing Quality Engineer | MSDA Candidate* [Your LinkedIn Profile Link] | [Your Professional Email]
+**Joshua Garth Shupe** *Manufacturing Quality Engineer | MSDA Candidate* [www.linkedin.com/in/joshua-shupe-0357b9137] | [joshua.shupe123@gmail.com]
