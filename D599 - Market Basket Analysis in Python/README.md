@@ -30,8 +30,3 @@ The goal was to use these insights to optimize product placement, create effecti
 * Python
 * Pandas (for data wrangling and preparation)
 * MLxtend (for Apriori algorithm implementation)
-
----
-### Supporting Files:
-
-* [View the Python Script for this Analysis](./market_basket_analysis.py)
