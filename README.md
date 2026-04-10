@@ -29,7 +29,7 @@ This repository serves as a professional portfolio of data engineering and analy
   * Developed a dual-model suite using Linear and Logistic regression to predict housing prices ($R^2=0.67$) and classify luxury assets with 89% accuracy.
 
 ### D602 — Deployment & MLOps
-* **[Airline Delay Prediction: End-to-End ML Lifecycle & API Deployment](<D602 - Airline Delay Prediction: End-to-End ML Lifecycle & API Deployment/README.md>)**
+* **[Airline Delay Prediction: End-to-End ML Lifecycle & API Deployment](<D602 - Airline Delay Prediction%3A End-to-End ML Lifecycle %26 API Deployment/README.md>)**
   * Architected a complete MLOps pipeline using MLFlow and DVC to tune and track flight delay models, deployed via a Dockerized FastAPI service with full unit testing.
 
 ### D603 — Machine Learning
@@ -37,11 +37,11 @@ This repository serves as a professional portfolio of data engineering and analy
   * Engineered a Gradient Boosting model with 98% accuracy to identify 'Initial_days' as the primary driver of readmissions, using SHAP for advanced model interpretability.
 
 ### D607 — Cloud Databases
-* **[Cloud Database Architecture & Migration to GCP Firestore](<D607- Cloud Data base Architecture & Migration to GCP Firestore/README.md>)**
+* **[Cloud Database Architecture & Migration to GCP Firestore](<D607- Cloud Data base Architecture %26 Migration to GCP Firestore/README.md>)**
   * Designed and implemented a scalable GCP Firestore (NoSQL) migration strategy for a high-volume retailer, handling 10 TB of daily transaction data with real-time query support.
 
 ### D608 — Data Processing & Pipelines
-* **[Data Pipelines with Apache Airflow: Automated Music Streaming ETL](<D608 - Data Pipelines with Apache Airflow: Automated Music Streaming ETL/README.md>)**
+* **[Data Pipelines with Apache Airflow: Automated Music Streaming ETL](<D608 - Data Pipelines with Apache Airflow%3A Automated Music Streaming ETL/README.md>)**
   * Developed a production-ready Airflow DAG with custom operators to automate the staging and transformation of music data from S3 into Redshift with integrated quality checks.
 
 ### D609 — Data Analytics at Scale
